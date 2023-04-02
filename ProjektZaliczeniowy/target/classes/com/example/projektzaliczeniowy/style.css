@@ -1,0 +1,94 @@
+.button1
+{
+    -fx-background-color:  #FFFF00;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-pref-width: 150px;
+    -fx-border-color: #000000;
+    -fx-text-fill: black;
+}
+
+.button2
+{
+    -fx-background-color:  #00FF00;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-pref-width: 150px;
+    -fx-border-color: #000000;
+    -fx-text-fill: black;
+}
+
+.button3
+{
+    -fx-background-color:  #FF0000;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-pref-width: 150px;
+    -fx-border-color: #000000;
+    -fx-text-fill: black;
+}
+
+.button4
+{
+    -fx-background-color:  #0000FF;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-pref-width: 150px;
+    -fx-border-color: #000000;
+    -fx-text-fill: black;
+}
+
+.button1:hover
+{
+    -fx-background-color:  #EEEE00;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.button2:hover
+{
+    -fx-background-color:  #00EE00;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.button3:hover
+{
+    -fx-background-color:  #EE0000;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.button4:hover
+{
+    -fx-background-color:  #0000EE;
+    -fx-font-size: 15px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.tlo
+{
+    -fx-background-image: url('tlo.jpg'); //zrodlo: https://redro.pl/fototapeta-piekne-krajobrazy-z-tatr-i-jeziora-w-polsce,2161353
+}
+
+.guziki
+{
+    -fx-border-color: black;
+}
+
+.gameButtons
+{
+    -fx-background-color: red;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+}
+
+.gameButtons:hover
+{
+    -fx-cursor: hand;
+    -fx-background-color: #DE0000;
+}

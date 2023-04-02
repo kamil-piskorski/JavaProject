@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: #000000; -fx-background-color: #B1A06C;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projektzaliczeniowy.MenuController">
+   <children>
+      <Label fx:id="labelOpis" layoutX="237.0" layoutY="23.0" text="Opis gry">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelZasady" alignment="CENTER" layoutX="120.0" layoutY="73.0" prefHeight="206.0" prefWidth="394.0" text="Po rozpoczęciu gry, gracz zobaczy&#10;przed sobą 9 płytek, które na przemian będą&#10;się podświetlały w odpowiedniej kolejności.&#10;Z każdym poziomem będzie jedna &#10;dodatkowa płytka do zapamiętania i naciśnięcia.&#10;Zadaniem gracza jest zapamiętanie &#10;jak największej liczby płytek.">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Label>
+      <Button fx:id="buttonWroc" layoutX="225.0" layoutY="298.0" mnemonicParsing="false" onAction="#switchScenes" styleClass="button3" stylesheets="@style.css" text="Wróć" />
+   </children>
+</AnchorPane>
